@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  height: 69px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+header .logo img {
+  margin-left: 10px;
+}
+header nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+}
+.logo img {
+  height: 50px;
+}
+#OurMission{
+width: 1200px;
+height: 700px;
+margin: auto;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+#text{
+width: 1200px;
+height: 120px;
+margin: auto;
+z-index: 1;
+margin-top: -350px;
+background-color: black;
+}
+.missiontext{
+height: 20px;
+text-align: center;
+padding: 1px 0;
+}
+#TeaMonth{
+width: 1000px;
+height: auto;
+margin: auto;
+margin-top: 300px;
+margin-bottom: 50px;
+position: relative;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+p  img{
+width: 300px;
+height: 200px;
+margin-bottom: 10px;
+}
+.tea{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tea p{
+margin-right: 30px;
+}
+#locations{
+width: 1200px;
+height: 500px;
+margin: auto;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+display: flex;
+flex-direction: column;
+}
+#locations p{
+margin: auto;
+}
+.box{
+margin: auto;
+margin-top: -20px;
+display: flex;
+flex-direction: row;
+}
+.blackBox{
+width: 300px;
+height: 300px;
+background-color: black;
+margin-right: 40px;
+opacity: 1;
+}
+.blackBox p,
+.blackBox h3{
+text-align: center;
+padding: 12px 20px;
+margin-bottom: 10px;
+}
+footer{
+height: 200px;
+width: 100%;
+margin: auto;
+margin-right: 20px;
+display: flex;
+flex-direction: column;
+}
+.footer_text{
+text-align: center;
+height: 200px;
+}
+.CR{
+margin: 20px;
+text-align: left;
+}
